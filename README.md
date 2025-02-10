@@ -1,5 +1,3 @@
-# krishnaGupta-ProtfolioWebsite
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -129,11 +127,39 @@
             margin: 0 100px;
 
         }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left:-9px;
+        }
         
 
-        .vertical-title {}
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px ;
+        }
 
-        .vertical-desc {}
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color:gray;
+            width:150 px;
+            font-size: 9px;
+        }
+        footer{
+            display: flex;
+            background-color: #0e0e1a;
+            height: 233px;
+
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-between;
+        }
     </style>
 </head>
 
@@ -175,30 +201,93 @@
 
             <span class="text-gray">What i have done till now</span>
 
-            <h1>Past Experience</h1>
+            <h1>Journey Track And Skills</h1>
 
 
             <div class="box">
                 <div class="vertical">
-                    
+                    <img class="image-top "src="developer.png" alt="">
                 
-                <div class="vertical-title">
-                    HTML Developer (2010-2012)
+                    <div class="vertical-title">
+                    10th pass (2021)
                     </div>
                     <div class="vertical-desc">
-                    
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top "src="developer.png" alt="">
+                
+                    <div class="vertical-title">
+                    12th pass (2023)
+                    </div>
+                    <div class="vertical-desc">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top "src="developer.png" alt="">
+                
+                    <div class="vertical-title">
+                    Btech Pursuing (2024-2028)
+                    </div>
+                    <div class="vertical-desc">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top "src="java.png" alt="">
+                
+                    <div class="vertical-title">
+                    Exploring Data Structures & Algorithms in Java
+                    </div>
+                    <div class="vertical-desc">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top "src="python.png" alt="">
+                
+                    <div class="vertical-title">
+                    Python Practioner
+
+                    </div>
+                    <div class="vertical-desc">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top "src="maths.png" alt="">
+                
+                    <div class="vertical-title">
+                    Mathematics Enthusiast
+                    </div>
+                    <div class="vertical-desc">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 
-                <div class="vertical">
-                    node.js developer
-                </div>
-
-                <div class="vertical"></div>
-                <div class="vertical"></div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+
+            <div class="footer-first">
+                <h3>Krishna's Developer Portfolio</h3>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            <div class="footer-third">
+            <div class="footer-fourth">
+            </div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <!-- Setup and start animation! -->
